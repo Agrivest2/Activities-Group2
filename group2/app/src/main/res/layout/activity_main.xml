@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/b2"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="300sp"
+        android:layout_height="150sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        android:src="@drawable/welcome">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="250sp"
+        android:layout_height="300sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70sp"
+        android:background="#B7B1ECE6"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="20sp"
+            android:src="@drawable/icon">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="230sp"
+            android:layout_height="50sp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30sp"
+                android:layout_height="29sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginRight="3sp"
+                android:src="@drawable/email">
+
+            </ImageView>
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="170sp"
+                android:layout_height="50sp"
+                android:layout_gravity="center"
+                android:backgroundTint="#ffff"
+                android:hint="Email:"
+                android:textColorHint="#000000">
+
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="230sp"
+            android:layout_height="50sp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30sp"
+                android:layout_height="29sp"
+                android:layout_marginTop="10sp"
+                android:layout_marginRight="3sp"
+                android:src="@drawable/pass3">
+
+            </ImageView>
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="170sp"
+                android:layout_height="50sp"
+                android:layout_gravity="center"
+                android:backgroundTint="#ffff"
+                android:hint="Pass:"
+                android:textColorHint="#000000">
+
+            </EditText>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="20sp">
+
+            <Button
+                android:id="@+id/btnlogin"
+                android:layout_width="80sp"
+                android:layout_height="30sp"
+                android:layout_gravity="center"
+                android:layout_marginRight="20sp"
+                android:background="@drawable/button"
+                android:text="log in"
+                android:textColor="#F3F3F3">
+
+            </Button>
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="80sp"
+                android:layout_height="30sp"
+                android:layout_gravity="center"
+                android:background="@drawable/button"
+                android:text="Reggister"
+                android:textColor="#F3F3F3">
+
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
